@@ -3,7 +3,6 @@
   
     background-color:peachpuff;
     color: white;
-   padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     width:100%;
@@ -21,9 +20,7 @@ margin: auto;
 }
 
 
-
-
-.container div {
+.container div  {
     background: #4d3e29;
     border: 2px solid #fac350;
     padding:10px;
@@ -39,19 +36,19 @@ margin: auto;
     color: #fac350;
   }
   a:visited{
-    color: purple;
+    color: white;
   }
   a:active{
     color:white
   }
 
-.photo{
+.row{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
-  margin: 10px 0px 10px 0px;
+  width: 100%;
 }
-.photo div{
+.row div{
 
   padding: 5px;
   width: 25%;
@@ -60,18 +57,71 @@ margin: auto;
   gap: 5px;
 }
 
-p{
 
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  flex-wrap: wrap;
-  display: flex;
-  background-color: antiquewhite;
-}
 div.first-paragraph{
   padding-left: 5px;
 }
 
 body{
   background-color: antiquewhite;
+}
+
+.column{
+  float: left;
+  width: 20%;
+  padding: 5px;
+  width: 20%;
+  height: 20%;
+  
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+h3{
+  padding-left: 10px;
+}
+.contact{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin: 0;
+  display: flex;
+  width: 25%;
+
+}
+.contact p{
+  margin: 0;
+
+}
+ .contact ul{
+  padding: 5px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.first-para, .second-para, .third-para{
+  background-color: #4d3e29;
+  border: solid 1px #fac350;
+  color: white;
+  padding-left: 5px;
+}
+
+div h2{
+  background-color: #4d3e29;
+  border: #fac350 solid 2px;
+  color: #fac350;
+  width: 10%;
+  height: 50px;
+  padding-top: 25px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+#heading{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header{
+  background-image: url(../website-images-assets/IMG_1437.jpeg) ;
+  
 }
