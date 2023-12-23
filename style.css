@@ -1,8 +1,9 @@
+
 .container {
   
     background-color:peachpuff;
     color: white;
-   /* padding: 0px 10px 0px 10px;*/
+   padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     width:100%;
@@ -19,9 +20,7 @@ text-align: center;
 margin: auto;
 }
 
-body{
-    background-color: beige;
-}
+
 
 
 .container div {
@@ -61,11 +60,18 @@ body{
   gap: 5px;
 }
 
-.first-paragraph{
+p{
 
   font-family: 'Times New Roman', Times, serif;
-  padding: 10px;
-  size: 20px;
+  font-size: medium;
   flex-wrap: wrap;
   display: flex;
+  background-color: antiquewhite;
+}
+div.first-paragraph{
+  padding-left: 5px;
+}
+
+body{
+  background-color: antiquewhite;
 }
