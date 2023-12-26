@@ -1,0 +1,318 @@
+a:hover {
+    color: blue;
+
+  }
+a:link{
+    color: #fac350;
+  }
+a:visited{
+    color: white;
+  }
+a:active{
+    color:white
+  }
+
+body{
+    background-color: antiquewhite;
+  }
+
+
+.heading{
+    background-image: url(https://shuspace.shu.ac.uk/bbcswebdav/xid-53148942_4);
+    width:100%;
+    height:9.5rem;
+    background-position: center;
+}
+
+.container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+}
+.container div{
+    background-color:#4d3e29;
+    color: #fac350;
+    border: 2px solid #fac350;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+}
+
+
+h1.banner{
+    background-color:#4d3e29;
+    color: #fac350;
+    font-size: medium;
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+    border: solid 2px black;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.contain{
+    margin: auto;
+    background-color: peachpuff;
+    color: black;
+    border: solid black 1px;
+    border-radius: 25px;
+    padding:2px 0px 2px 0px ;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+.next{
+    background-color: #4d3e29;
+    color: #fac350;
+    width: 20%;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container div h1{
+    font-size: medium;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2rem;
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    
+}
+div.column img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+h1.first{
+
+    background-color: peachpuff;
+    border: black 1px solid;
+    border-radius: 25px;
+    width: 40%;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.contact{
+
+    background-color: #4d3e29;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+    width: 60%;
+    border-radius: 20px;
+}
+.contact ul{
+    padding: 0px;
+}
+.map img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.contact p{
+    margin: 0;
+}
+.contact ul{
+    padding: 5px;
+}
+
+.section1{
+    font-size: medium;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.row{
+    margin-top: 10px;
+    background-color: peachpuff;
+    border-radius: 25px;
+    padding-top: 20px;
+
+}
+.row div{
+    display: block;
+}
+
+h2.second{
+    background-color: peachpuff;
+    border-radius: 25px;
+    width: 40%;
+    border: solid black 2px;
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section2{
+    background-color:lightslategrey;
+    border-radius: 25px;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  .section2 li{
+    padding-left: 5px;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  h1.Rules{
+    background-color: peachpuff;
+    border: black 2px solid;
+    border-radius: 25px;
+    width: 60%;
+    font-size: medium;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .intro{
+    text-decoration: underline;
+  }
+h2.first{
+margin: auto;
+background-color: #4d3e29;
+color: #fac350;
+border-radius: 25px;
+text-align: center;
+width: 40%;
+margin-top: 20px;
+}
+
+h3.second{
+    background-color: burlywood;
+    color: black;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    border: solid black 2px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h3.third{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    background-color: #4d3e29;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 30px;
+    font-size: medium;
+    border: #fac350 2px solid;
+
+}
+.container2 p{
+    background-color: peachpuff;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    font-size: medium;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+h2.third{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    background-color: #4d3e29;
+    border-radius: 25px;
+    color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: medium;
+    border: #fac350 2px solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.container2 li{
+    background-color:peachpuff;
+    color: black;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    padding:5px 5px 5px 5px;
+    border: black solid 2px;
+}
+
+.container3 p{
+    background-color: #4d3e29;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.container3 div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contactUs{
+    width: 65%;
+    font-size: medium;
+    background-color: #4d3e29;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+.contactUs p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
