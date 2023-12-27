@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cantor College</title>
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" media="only screen and (min-width:720px)" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" media="only screen and (min-width:720px)" href="css/style.css"/>
     
+    <script src="java/script.js" defer></script>
 </head>
 <body>
     <div class="heading">
@@ -35,21 +36,28 @@
     <h2 class="Explore">Explore Cantor College</h2>
     </div>
 
-    <div class="row">
-    
-        <div class="column"> <img src="website-images-assets/IMG_1439.jpeg" alt="image 1"></div>
-        <div class="column"><img src="website-images-assets/IMG_1809.jpeg" alt="image 2"></div>
-        <div class="column"><img src="website-images-assets/IMG_1808.jpeg" alt="image 3"></div>
-        <div class="column"><img src="website-images-assets/IMG_1642.jpeg" alt="image 4"></div>
-        <div class="column"> <img src="website-images-assets/IMG_1441.jpeg" alt="image 5" ></div>
-        <div class="column"><img src="website-images-assets/IMG_1437.jpeg" alt="image 6" ></div>
+    <div class="row-wrap">
+
+        <img src="website-images-assets/backbutton.jpg" alt="back" id="backbutton">
+        <div class="row">
+        
+            <div>
+            <span><img src="website-images-assets/IMG_1439.jpeg" alt="image 1"></span>
+            <span><img src="website-images-assets/IMG_1809.jpeg" alt="image 2"></span>
+            <span><img src="website-images-assets/IMG_1808.jpeg" alt="image 3"></span>
+            </div>
+            <div>
+            <span><img src="website-images-assets/IMG_1642.jpeg" alt="image 4"></span>
+            <span><img src="website-images-assets/IMG_1441.jpeg" alt="image 5" ></span>
+            <span><img src="website-images-assets/IMG_1437.jpeg" alt="image 6" ></span>
+            </div>
+        </div>
+
+
+        <img src="website-images-assets/nextbutton.jpg"alt="next" id="nextbutton">
     </div>
 
-    <div class="next">
-        <p onclick="changeImage()">NEXT</p>
-    </div>
 
 
-<script src="java/script.js"></script>
 </body>
 </html>
