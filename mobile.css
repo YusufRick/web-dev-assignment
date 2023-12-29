@@ -18,7 +18,7 @@ body{
 
 
 .heading{
-    background-image: url(https://shuspace.shu.ac.uk/bbcswebdav/xid-53148942_4);
+    background-image: url(../website-images-assets/SHU_OwenBuilding_Rainbow_2.jpg);
     width:100%;
     height:9.5rem;
     background-position: center;
@@ -82,11 +82,13 @@ div.contain{
     display: flex;
     justify-content: space-evenly;
     overflow-x: scroll;
+    margin-top: 10px;
+    background-color: peachpuff;
+    padding-top: 20px;
     
 }
 
 .row div img:hover{
-    filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
 
@@ -147,7 +149,6 @@ div img{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    filter: grayscale(100%);
     transition:transform 0.5s;
     padding-left: 5px;
 
@@ -206,13 +207,6 @@ h1.first{
     margin-bottom: 20px;
     margin: auto;
 }
-.row{
-    margin-top: 10px;
-    background-color: peachpuff;
-    padding-top: 20px;
-
-}
-
 
 h2.second{
     background-color: peachpuff;
@@ -236,7 +230,7 @@ h2.second{
   .section2 li{
     padding-left: 5px;
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   h1.Rules{
     background-color: peachpuff;

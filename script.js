@@ -17,5 +17,4 @@ nextbtn.addEventListener("click",()=>{
 
 backbtn.addEventListener("click",()=>{
     scrollContainer.scrollLeft -=150;
-})
-;
+});
