@@ -1,82 +1,183 @@
-a:hover {
-    color: blue;
-
-  }
-a:link{
-    color: #fac350;
-  }
-a:visited{
-    color: white;
-  }
-a:active{
-    color:white
-  }
-
-body{
-    background-color: antiquewhite;
-  }
-
-
-.heading{
-    background-image: url(../website-images-assets/SHU_OwenBuilding_Rainbow_2.jpg);
-    width:100%;
-    height:9.5rem;
-    background-position: center;
+*{
+    box-sizing: border-box;
 }
-
-.container{
-    flex-direction: column;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content:space-evenly;
-}
-.container div{
-    background-color:#4d3e29;
-    color: #fac350;
-    border: 2px solid #fac350;
-    text-align: center;
-    padding: 2px 0px 2px 0px;
+.headerContainer{
+    border:solid 2px black;
 }
 
 
-h1.banner{
-    background-color:#4d3e29;
-    color: #fac350;
-    font-size: medium;
-    padding: 5px;
-    width: 40%;
-    margin: auto;
-    border: solid 2px black;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+:root{
+    --header-bg-colour: #FFAE00;
+    --header-colour: #383416;
+    --footer-bg-colour: #383416;
+    --footer-colour: #fff;
 }
-div.contain{
-    margin: auto;
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
     background-color: peachpuff;
-    color: black;
-    border: solid black 1px;
-    border-radius: 25px;
-    padding:2px 0px 2px 0px ;
-    font-size: x-small;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-  }
-
-.next{
-    background-color: #4d3e29;
-    color: #fac350;
-    width: 20%;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    margin-top: 5px;
 }
+
+.headerContainer, .footerContainer {
+    width: 100%;
+}
+.mainContainer{
+    margin: 0 0 120px 0;
+    padding: 0 10px;
+}
+
+.headerContainer {
+    background-color: var(--header-bg-colour);
+    color: var(--header-colour);
+    margin:0;
+    padding:0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+header>div:last-child{
+    position:relative;
+}
+.mainNav {
+    position: absolute;
+    left:-100%;
+    top:-1px;
+    transition: left 0.5s;
+    background-color: var(--header-bg-colour);
+    color: var(--header-colour);
+    width:100%;
+}
+
+.mainNav > menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNav > menu li {
+    border-bottom: 1px solid var(--header-colour);
+    padding: 5px;
+}
+
+.mainNav >menu > li > a {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--header-colour);
+    padding: 8px 0;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.topBar img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    z-index: 1;
+    filter: none;
+}
+
+/* burger menu */
+.burger {
+    margin-top: 1.8rem;
+}
+.burger>.line {
+    width: 35px;
+    height: 5px;
+    background-color: var(--header-colour);
+    margin: 6px 0;
+    transition: transform 0.4s;
+}
+
+/* Rotate first bar */
+.burger.changeBurger>.line:first-child {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.burger.changeBurger>.line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.changeBurger>.line:last-child {
+    transform: translate(0, -11px) rotate(45deg);
+}
+.homePage>div{
+    flex:1 1 50%;
+    padding:10px;
+}
+.homePage>div>a{
+	color: var(--header-colour);
+	text-decoration: none;
+}
+
+/* table styles */
+table {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+th,
+td {
+  padding: 10px 4px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #000;
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
+.uc{
+	text-transform: uppercase;
+}
+
+/* form styles */
+form>div {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+input[type="submit"] {
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
 .row{
     
     display: flex;
@@ -154,21 +255,19 @@ div img{
 
 }
 
+h1.banner{
 
-
-h1.first{
-
-    background-color: peachpuff;
+    background-color: #FFAE00;
     border: black 1px solid;
     border-radius: 25px;
     width: 40%;
-    font-size: medium;
+    font-size:large;
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 .contact{
 
@@ -189,6 +288,8 @@ h1.first{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 400px;
+    height: 300px;
 }
 .contact p{
     margin: 0;
@@ -209,7 +310,8 @@ h1.first{
 }
 
 h2.second{
-    background-color: peachpuff;
+    background-color:#4d3e29 ;
+    color: #fff;
     border-radius: 25px;
     width: 40%;
     border: solid black 2px;
@@ -220,20 +322,20 @@ h2.second{
     margin-bottom: 10px;
   }
 
-  .section2{
+.section2{
     background-color:lightslategrey;
     border-radius: 25px;
     margin: auto;
     padding-top: 10px;
     margin-bottom: 20px;
-  }
-  .section2 li{
+}
+.section2 li{
     padding-left: 5px;
     text-align: left;
     padding-bottom: 10px;
   }
-  h1.Rules{
-    background-color: peachpuff;
+h1.Rules{
+    background-color:#c7a36d;
     border: black 2px solid;
     border-radius: 25px;
     width: 60%;
@@ -242,8 +344,8 @@ h2.second{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  .intro{
+}
+.intro{
     text-decoration: underline;
   }
 h2.first{
@@ -309,7 +411,7 @@ h2.third{
 }
 
 .container2 li{
-    background-color:peachpuff;
+    background-color:#c7a36d;
     color: black;
     border-radius: 25px;
     margin: auto;
@@ -349,5 +451,24 @@ h2.third{
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+
+}
+
+.homePage{
+    background-color: #4d3e29;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+.homePage p{
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+}
+
+div.searchForm{
+    margin: auto;
 
 }

@@ -1,0 +1,168 @@
+header, main, footer {
+    max-width:1200px;
+    margin:0 auto;
+}
+main {
+    margin-bottom:120px;
+}
+
+.burger {
+    display:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0;
+}
+header>.div:last-child {
+    position: static;
+}
+.mainNav {
+    position: static;
+	left:0;
+    top:0;
+	transition: none;
+}
+.mainNav>menu {
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.mainNav>menu li {
+    border-bottom: none;
+    border-right:1px solid var(--header-colour);
+}
+.mainNav>menu li:last-child {
+    border:none;
+}
+.mainNav>menu>li>a{
+    transition: color 0.5s;
+}
+.mainNav>menu>li>a:hover {
+    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+}
+.topBar{
+	padding-left:0;
+}
+.topBar img{
+
+    width: 200px;
+    height: 150px;
+}
+.homePage{
+    flex-wrap: nowrap;
+}
+.homePage>div>a img{
+	transition: all 0.5s;
+}
+.homePage>div>a:hover img{
+	transform: scale(0.9);
+}
+.twoColumn{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.sideBar{
+	padding:5px;
+    background-color: var(--header-bg-colour);
+    color: var(--header-colour);
+	font-size:0.9rem;
+	height: fit-content;
+}
+.sideBar h3{
+	text-align:center;
+}
+.sideBar div{
+	display: flex;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 400px;;
+}
+
+input[type="submit"] {
+    width: 400px;
+}
+
+h2.first{
+    width: 20%;
+}
+h3.second{
+    width: 20%;
+}
+h1.Rules{
+    width: 30%;
+    background-color: burlywood;
+}
+h3.third{
+    width: 20%;
+}
+.container2 p{
+    background-color:#a5804b ;
+    width: 40%;
+}
+
+.section1{
+    width: 50%;
+    padding: 20px;
+}
+.section1 p{
+margin-top: 0;
+font-size: large;
+}
+h2.second{
+    width: 20%;
+    padding: 10px;
+}
+h1.banner{
+    width: 30%;
+}
+.section2{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.section2 li{
+    font-size: large;
+}
+h2.third{
+    width: 20%;
+    padding: 10px;
+}
+.container2 li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.container3 p{
+    font-size: large;
+}
+.searchForm{
+    margin:auto;
+}
+
+input[type="submit"] {
+    width: 400px;
+}
+.contact{
+    width: 30%;
+    padding: 10px;
+
+}
+.contact p{
+    font-size: large;
+}
+
+.map img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
